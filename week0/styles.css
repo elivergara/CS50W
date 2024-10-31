@@ -1,0 +1,15 @@
+h1 {
+    color: blue;
+    text-align: center;
+}
+
+table {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+td,th {
+    border: 1px solid black;
+    padding: 2px;
+    padding: 5px;
+}
