@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto' , sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #e9ecef;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+header {
+    text-align: center;
+    background-color: #0056b3;
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #fff;
+}
+
+header h2 {
+    font-size: 1.3em;
+    font-weight: 300;
+    color: #cce0ff;
+}
+
+section h3 {
+    color: #0056b3;
+    margin-bottom: 10px;
+    font-size: 1.4em;
+}
+
+section ul {
+    list-style-type: square;
+    padding-left: 20px;
+    color: #333;
+}
+
+section ul li {
+    margin-bottom: 8px;
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-left: 5px solid #0056b3;
+    background-color: #f9f9ff;
+    border-radius: 8px;
+}
+
+.about p, .experience p, .hobbies p {
+    line-height: 1.6;
+    margin-bottom: 5px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #666;
+}
+
+footer a {
+    color: #0056b3;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.skills, .experience, .hobbies {
+    background-color: #eaf3ff;
+}
+
+.certifications {
+    background-color: #e2f0d9;
+}
+
+.certifications ul, .certifications h4 {
+    color: #333;
+}
+.profile-card {
+    width: 300px;
+    padding: 15px;
+    border: 1px solid #3a3a3a;
+    border-radius: 10px;
+}
+
+.profile-header h1,
+.profile-header h2 {
+    color: #2c4563;
+}
+
+.profile-header h1 {
+    font-size: 25px;
+}
+
+.profile-header h2 {
+    font-size: 20px;
+}
+
+.profile-content p {
+    font-size: 16px;
+    color: #292929;
+    padding-top: 5px;
+}
+
+/* Remove underline on the link initially */
+.profile-footer a {
+    text-decoration: none;
+}
+
+/* Add underline only on hover */
+.profile-footer a:hover {
+    text-decoration: underline;
+}
