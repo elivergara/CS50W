@@ -1,0 +1,167 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    background-color: #fff;
+}
+
+.adv-img {
+    width: 80px;
+    height: auto;
+
+}
+
+.header-links {
+    margin-left: auto;
+    text-align: right;
+}
+
+header a {
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+.content-container {
+    padding-top: 200;
+}
+
+
+.advanced-search-head {
+    display: block;
+    font-size: 20px;
+    color: rgb(194, 69, 20);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 30px 0 20px 50px;
+}
+
+.horiz-line {
+    border: none;
+    height: 1px;
+    background-color: #ccc;
+    width: 100%;
+    margin: 20px 0 50px 0;
+}
+
+
+.form {
+    background-color: rgb(255, 255, 255);
+    margin-top: 250px;
+    text-align: center;
+}
+
+.rounded-input {
+    border: 1px solid;
+    border-radius: 50px;
+    margin-bottom: 5px;
+    width: 600px;
+    height: 40px;
+    border-color: rgb(216, 216, 216);
+    font-size: larger;
+}
+
+input[type="submit"] {
+    margin: 20px 15px 0 0;
+    height: 35px;
+    padding: auto;
+    align-items: center;
+    border-width: 0;
+}
+
+
+.logo-container {
+    display: inline-flex;
+    align-items: flex-end;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.google-logo {
+    height: 90px;
+
+}
+
+.images-text {
+    font-size: 16px;
+    color: #4285F4;
+    position: relative;
+    top: 0px;
+    left: -50px;
+    font-family: Geneva, Verdana, sans-serif;
+
+}
+
+.adv-img {
+    width: 80px;
+    text-align: left;
+}
+
+.find-text {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Sans Unicode', Verdana, sans-serif;
+    color: rgb(124, 124, 124);
+    margin-left: 50px;
+}
+
+.search-form {
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.find-text {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.form-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    margin-left: 50px;
+    text-align: left;
+}
+
+.form-table td {
+    padding: 10px 5px;
+    vertical-align: middle;
+    font-size: 12px;
+    color: #555;
+}
+
+.form-table td:first-child {
+    text-align: left;
+    width: 30%; space-between;
+    /* Adjust as needed */
+}
+
+.form-table td input[type="text"] {
+    width: 80%;
+    /* Adjust as needed */
+    padding: 5px;
+    font-size: 14px;
+}
+
+.range-input {
+    width: 40%;
+    /* Adjust as needed */
+}
+
+.button-container {
+    display: flex;
+    justify-content: flex-end; 
+    margin-top: 20px; 
+}
+
+.adv-search-btn {
+    border-width: 1px;
+    border-color: #a8a8a8;
+    background-color: #4285F4;
+    height: 30px;
+    border-radius: 3px;
+    border-style: solid;
+    font-weight: bold;
+    color: white;
+    padding: 0 15px; 
+    cursor: pointer;
+}
