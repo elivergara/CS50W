@@ -1,11 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <title>Search</title>
 </head>
+
 <body>
+    <header>
+        <div class="header-links">
+            <a href="images.html" target="_self">Image Search</a>
+            <a href="advanced.html" target="_self">Advanced Search</a>
+        </div>
+    </header>
+    <div class="form">
+        <img src="img_search.png" alt="">
+        <form action="https://www.google.com/search" method="GET">
+            <input type="text" name="q" class="rounded-input"><br>
     
+            <!-- Normal Google Search -->
+            <input type="submit" value="Google Search">
+            
+            <!-- I'm Feeling Lucky Search -->
+            <input type="submit" name="btnI" value="I'm Feeling Lucky">
+    
+        </form>
+    </div>
+    
+
 </body>
+
 </html>
